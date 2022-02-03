@@ -1,0 +1,23 @@
+SECTION TOP
+    Navbar
+    Title
+
+SECTION ABOUT
+    Image
+    Download CV
+    Description
+
+SECTION KNOWLEGE / MY PROJECTS
+    Technologies
+    Online projects (domain)
+    Simple projects
+
+SECTION CONTACT
+    Whatsapp link
+    Instagram link
+    Linkedin link
+    Github link
+    Form
+
+FOOTER
+    by Leonardo Pottmayer
