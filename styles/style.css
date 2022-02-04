@@ -1,0 +1,170 @@
+/* COLORS */
+/* #61DAFB */
+/* #93E6FC */
+/* #367D5D */
+/* #65C89B */
+/* #17181D */
+/* #1C2833 */
+/* #1A222C */
+
+
+
+
+
+/* GLOBAL */
+.span-color-01 {
+    color: #65C89B;
+    font-weight: 600;
+}
+
+.span-color-02 {
+    color: #93E6FC;
+    font-weight: 600;
+}
+
+
+
+
+
+/* NAVBAR */
+.navbar {
+    background-color: #17181D;
+    padding: 15px;
+    text-align: center;
+    opacity: 75%;
+}
+
+
+
+
+
+/* SECTION HOME */
+/* Section */
+#home {
+    background-image: url(../images/wallpaper-dark-beach-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Top Content */
+.top-content {
+    /* background-color: #17181D; */
+    padding: 3rem;
+    text-align: center;
+    height: 92.8vh;
+    width: 100%;    
+}
+
+.top-content .row {
+    margin-top: 13rem;
+}
+
+/* Top Content - First p */
+.top-content p {
+    color: #E8F1F2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Top Content - H1 */
+.top-content h1 {
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+/* Top Content - Button */
+.top-content button {
+    background-color: #283642;
+    color: white;
+    color: #E8F1F2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    opacity: 85%;
+}
+
+
+
+
+
+/* SECTION ABOUT */
+/* About Content */
+.about-content {
+    padding: 5rem;
+    background-color: #1A222C;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Profile Image */
+.profile-image {
+    border: 5px solid #213445; 
+    width: 75%
+}
+
+.about-content a {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* Button Download CV */
+.download-cv {
+    background-color: #65C89B;
+    color: white;
+}
+
+/* About Text */
+.about-text{
+
+}
+
+/* About Text micro-title */
+.about-microtitle {
+    color: white;
+    text-align: left;
+}
+
+/* About Text h1 */
+.about-text h1 {
+    color: white;
+    text-align: left;
+}
+
+/* About Text  */
+.about-description {
+    color: white;
+    text-align: left;
+}
+
+/* About Technologies */
+.about-technologies {
+    margin-top: 3rem;
+    background-color: #213445;
+    padding: 1.5rem;
+}
+
+/* About Technology item */
+.technology-item {
+    display: inline;
+    margin: 0 2rem;
+}
+
+/* About Technology item a */
+.technology-item a {
+    display: inline;
+}
+
+/* About Technologies Image */
+.about-technologies-image {
+    width: 10%;
+}
+
+/* About Projects Button */
+.about-projects .btn {
+    background-color: #65C89B;
+    color: white;
+}
+

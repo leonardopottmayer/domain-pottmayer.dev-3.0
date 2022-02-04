@@ -1,16 +1,12 @@
-SECTION TOP
-    Navbar
-    Title
+UMA SÓ
+    SECTION HOME
+        Navbar
+        Title
 
-SECTION ABOUT
-    Image
-    Download CV
-    Description
-
-SECTION KNOWLEGE / MY PROJECTS
-    Technologies
-    Online projects (domain)
-    Simple projects
+    SECTION ABOUT
+        Image
+        Download CV
+        Description
 
 SECTION CONTACT
     Whatsapp link
@@ -21,3 +17,10 @@ SECTION CONTACT
 
 FOOTER
     by Leonardo Pottmayer
+
+
+
+
+
+NOTES
+    Link download CV maior que o botão
