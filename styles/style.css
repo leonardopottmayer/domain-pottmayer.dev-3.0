@@ -36,6 +36,8 @@
     padding: 15px;
     text-align: center;
     opacity: 75%;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -85,7 +87,6 @@
 /* Top Content - Button */
 .top-content button {
     background-color: #65C89B;
-    color: white;
     color: #E8F1F2;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
@@ -117,10 +118,11 @@
     width: 50%;
 }
 
+/* About Content a */
 .about-content a {
     display: block;
-    text-align: center;
-    margin-top: 1rem;
+    width: fit-content;
+    margin: 1rem auto;
 }
 
 /* Button Download CV */
@@ -131,7 +133,7 @@
 
 /* Col About Left */
 .col-about-left {
-
+    text-align: center;
 }
 
 /* Col About Right */
