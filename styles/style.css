@@ -304,6 +304,10 @@
     text-align: center;
  }
 
+:-moz-placeholder {
+    text-align: center;
+}
+
 /* Contact Button */
 .contact-button {
     margin: 5px;
