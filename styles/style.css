@@ -11,7 +11,9 @@
 
 
 
+/* -------------------------------------------------- */
 /* GLOBAL */
+/* -------------------------------------------------- */
 .span-color-01 {
     color: #65C89B;
     font-weight: 600;
@@ -26,7 +28,9 @@
 
 
 
+/* -------------------------------------------------- */
 /* NAVBAR */
+/* -------------------------------------------------- */
 .navbar {
     background-color: #17181D;
     padding: 15px;
@@ -38,13 +42,17 @@
 
 
 
+/* -------------------------------------------------- */
 /* SECTION HOME */
+/* -------------------------------------------------- */
 /* Section */
 #home {
     background-image: url(../images/wallpaper-dark-beach-01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    width: 100%;   
 }
 
 /* Top Content */
@@ -52,8 +60,6 @@
     /* background-color: #17181D; */
     padding: 3rem;
     text-align: center;
-    height: 92.8vh;
-    width: 100%;    
 }
 
 .top-content .row {
@@ -78,7 +84,7 @@
 
 /* Top Content - Button */
 .top-content button {
-    background-color: #283642;
+    background-color: #65C89B;
     color: white;
     color: #E8F1F2;
     font-family: 'Josefin Sans', sans-serif;
@@ -90,23 +96,30 @@
 
 
 
+/* -------------------------------------------------- */
 /* SECTION ABOUT */
+/* -------------------------------------------------- */
+/* Section */
+#about {
+    width: 100%;
+}
+
 /* About Content */
 .about-content {
     padding: 5rem;
     background-color: #1A222C;
     text-align: center;
-    height: 100vh;
 }
 
 /* Profile Image */
 .profile-image {
     border: 5px solid #213445; 
-    width: 75%
+    width: 50%;
 }
 
 .about-content a {
     display: block;
+    text-align: center;
     margin-top: 1rem;
 }
 
@@ -114,6 +127,16 @@
 .download-cv {
     background-color: #65C89B;
     color: white;
+}
+
+/* Col About Left */
+.col-about-left {
+
+}
+
+/* Col About Right */
+.col-about-right {
+
 }
 
 /* About Text */
@@ -125,12 +148,17 @@
 .about-microtitle {
     color: white;
     text-align: left;
+    font-family: Montserrat;
+    font-size: 14pt;
+    font-weight: 400;
 }
 
 /* About Text h1 */
 .about-text h1 {
-    color: white;
+    color: #65C89B;
     text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
 }
 
 /* About Text  */
@@ -139,32 +167,255 @@
     text-align: left;
 }
 
-/* About Technologies */
-.about-technologies {
-    margin-top: 3rem;
+/* Above About Text */
+.about-above-text {
+    text-align: left;
+}
+
+/* Above Text H1 */
+.about-above-text h1 {
+    margin-top: 50px;
+    color: #65C89B;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+/* Above a */
+#linkGithubProjetos {
+    width: fit-content;
+    display: inline;
+}
+
+#linkGithubProjetos button {
+    border: 0;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+/* SECTION CONTACT */
+/* -------------------------------------------------- */
+/* Section */
+#contact {
+
+}
+
+/* Contact Content */
+.contact-content {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/wallpaper-dark-beach-04.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 2% 5% 2%;
+}
+
+/* Contact Heading */
+.contact-content h1 {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+/* Contact Row */
+.contact-row {
+
+}
+
+/* Contact Left Col */
+.contact-left-col {
+    margin-top: 3%;
+}
+
+/* Contact Right Col */
+.contact-right-col {
+    margin-top: 3%;
+    /* background-color: green; */
+    justify-content: center;
+
+}
+
+/* Contact Second and Third Heading */
+.contact-content h3 {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Contact Right Options */
+.contact-right-options {
+    margin-top: 4%;
+}
+
+/* Contact Options */
+.contact-options {
+    margin: 2% 0;
+}
+
+/* Contact i */
+.contact-content i {
+    display: inline;
+    color: white;
+    margin-right: 10px;
+}
+
+/* Contact H4 */
+.contact-content h4 {
+    color: white;
+    display: inline;
+    font-size: 18px;
+}
+
+/* Contact Right */
+.contact-content a {
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+/* Contact Form */
+.contact-form {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+/* Contact Form Input */
+.contact-input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 7px 0;
     background-color: #213445;
-    padding: 1.5rem;
+    border: 0;
+    color: white;
 }
 
-/* About Technology item */
-.technology-item {
-    display: inline;
-    margin: 0 2rem;
-}
+/* Center placeholder */
+::-webkit-input-placeholder {
+    text-align: center;
+ }
 
-/* About Technology item a */
-.technology-item a {
-    display: inline;
-}
-
-/* About Technologies Image */
-.about-technologies-image {
-    width: 10%;
-}
-
-/* About Projects Button */
-.about-projects .btn {
+/* Contact Button */
+.contact-button {
+    margin: 5px;
     background-color: #65C89B;
     color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+/* MEDIA QUERY */
+/* -------------------------------------------------- */
+@media screen and (max-width: 990px) { 
+    body { overflow-x: hidden; }
+
+    /* Profile Image */
+    .profile-image {
+        border: 5px solid #213445; 
+        width: 60%;
+        margin-top: -40%;
+    }
+
+    /* About Text micro-title */
+    .about-microtitle {
+        color: white;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14pt;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+
+    /* About Text h1 */
+    .about-text h1 {
+        color: #65C89B;
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+
+    /* About Text  */
+    .about-description {
+        color: white;
+        text-align: center;
+    }
+
+    /* Above About Text */
+    .about-above-text {
+        text-align: center;
+    }
+
+    /* Above Text H1 */
+    .about-above-text h1 {
+        margin-top: 50px;
+        color: #65C89B;
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+
+    /* Above a */
+    #linkGithubProjetos {
+        width: fit-content;
+        display: inline;
+    }
+
+    #linkGithubProjetos button {
+        border: 0;
+    }
+
+    /* Contact i */
+    .contact-content i {
+        display: inline;
+        color: white;
+        margin-right: 10px;
+    }
+
+    /* Contact H4 */
+    .contact-content a {
+        color: white;
+        display: inline;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    /* Profile Image */
+    .profile-image {
+        border: 5px solid #213445; 
+        width: 80%;
+        margin-top: -55%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Profile Image */
+    .profile-image {
+        border: 5px solid #213445; 
+        width: 80%;
+        margin-top: -65%;
+    }
+}

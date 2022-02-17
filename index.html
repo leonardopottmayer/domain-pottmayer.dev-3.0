@@ -23,19 +23,21 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
     <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/1c9c84350f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- TITLE -->
-    <title>Leonardo Pottmayer</title>
+    <title>Leonardo Pottmayer - Home</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="images/logo.png"/>
 </head>
 <body onload="calculateAge()">
-    <div class="">
+    <div class="content-fluid">
 
     </div>
+    <!-- -------------------------------------------------- -->
     <!-- SECTION HOME -->
+    <!-- -------------------------------------------------- -->
     <section id="home">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -61,7 +63,7 @@
                             <a class="nav-link" href="#contact">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projetos</a>
+                            <a class="nav-link" href="projects/index.html">Projetos</a>
                         </li>
                     </ul>
                 </div>
@@ -75,7 +77,7 @@
                     <p>Olá, meu nome é</p>
                     <h1>Leonardo Pottmayer.</h1>
                     <p>Desenvolvedor <span class="span-color-01">Full Stack</span>.</p>
-                    <a href="#contact"><button class="btn">Contato</button></a>  
+                    <a href="#contact"><button class="btn btn-lg">Contato</button></a>  
                 </div>
             </div>
         </div>
@@ -84,20 +86,22 @@
 
 
 
-    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- -------------------------------------------------- -->
     <!-- SECTION ABOUT -->
+    <!-- -------------------------------------------------- -->
     <section id="about">
         <!-- About Content -->
         <div class="about-content content-fluid">
             <div class="row">
                 <!-- Left Column -->
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-about-left col-lg-6 col-md-12 col-sm-12">
                     <img class="profile-image" src="images/leonardo-profile-square.png" alt="">
                     <!-- Download Curriculum -->
                     <a href="files/CurriculumLeonardoPottmayer.pdf" download="CurriculumLeonardoPottmayer"><button class="btn download-cv">Download CV</button></a>
                 </div>
-                <!-- Left Column -->
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <!-- Right Column -->
+                <div class="col-about-right col-lg-6 col-md-12 col-sm-12">
                     <!-- Text -->
                     <div class="about-text">
                         <p class="about-microtitle">SOBRE MIM</p>
@@ -111,34 +115,11 @@
                             maximizar meu conhecimento.
                         </p>
                     </div>
-                    <!-- Technologies -->
-                    <div class="about-technologies">
-                        <!-- HTML -->
-                        <div class="technology-item">
-                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"><img class="about-technologies-image" title="HTML5" src="images/logos/html5-logo.png" alt=""></a>
-                        </div>
-                        <!-- CSS -->
-                        <div class="technology-item">
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSS" target="_blank"><img class="about-technologies-image" title="CSS3" src="images/logos/css-logo.png" alt=""></a>
-                        </div>
-                        <!-- JavaScript -->
-                        <div class="technology-item">
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img class="about-technologies-image" title="JavaScript" src="images/logos/javascript-logo.png" alt=""></a>
-                        </div>
-                        <!-- Bootstrap -->
-                        <div class="technology-item">
-                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap" target="_blank"><img class="about-technologies-image" title="Bootstrap" src="images/logos/bootstrap-logo.png" alt=""></a>
-                        </div>
-                        <!-- Node.js -->
-                        <div class="technology-item">
-                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js" target="_blank"><img class="about-technologies-image" title="Node.js" src="images/logos/nodejs-logo.jpg" alt=""></a>
-                        </div>
-                        <!-- React -->
-                        <!-- Database -->
-                    </div>
-                    <!-- Projects -->
-                    <div class="about-projects">
-                        <a href="projects/index.html"><button class="btn">Projetos</button></a>
+                    <!-- About Above Text -->
+                    <div class="about-above-text">
+                        <h1>Confira meus projetos</h1>
+                        <a id="linkGithubProjetos" href="https://github.com/leonardopottmayer" target="_blank"><button class="btn btn-lg btn-light">GitHub</button></a>
+                        <a id="linkGithubProjetos" href="projects/index.html"><button class="btn btn-lg btn-light">Projetos</button></a>
                     </div>
                 </div>
             </div>
@@ -149,10 +130,48 @@
 
 
 
-    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
     <!-- SECTION CONTACT -->
+    <!-- -------------------------------------------------- -->
     <section id="contact">
+        <div class="content-fluid contact-content">
+            <h1>Contato</h1>
 
+            <div class="row contact-row">
+                <!-- Contact Left Column -->
+                <div class="contact-left-col col-lg-6 col-md-12 col-sm-12">
+                    <h3>Preencha o formulário</h3>
+                    <form class="contact-form" action="https://formsubmit.com/pottmayerleonardo@gmail.com" method="post">
+                        <input class="contact-input" type="text" name="name" placeholder="Nome">
+                        <input class="contact-input" type="email" name="email" placeholder="E-Mail">
+                        <input class="contact-input" type="tel" name="tel" placeholder="Telefone">
+                        <input class="contact-input" type="text" name="message" placeholder="Mensagem">
+                        <button class="contact-button btn btn-lg" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <!-- Contact Right Column -->
+                <div class="contact-right-col col-lg-6 col-md-12 col-sm-12">
+                    <div class="contact-right-options">
+                        <div class="contact-options">
+                            <i class="fa fa-whatsapp fa-2x"></i>
+                            <h4><a href="https://api.whatsapp.com/send?phone=5547992712310&text=Ol%C3%A1" target="_blank">(47) 99271-2310</a></h4>
+                        </div>
+                        <div class="contact-options">
+                            <i class="fa fa-envelope fa-2x"></i>
+                            <h4><a href="mailto:insertemailhere@xyz.com" target="_blank">pottmayerleonardo@gmail.com</a></h4>
+                        </div>
+                        <div class="contact-options">
+                            <i class="fa fa-instagram fa-2x"></i>
+                            <h4><a href="https://www.instagram.com/leonardopottmayer/" target="_blank">@leonardopottmayer</a></h4>
+                        </div>
+                        <div class="contact-options">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                            <h4><a href="https://www.linkedin.com/in/leonardo-gian-pottmayer-8ab48a179/" target="_blank">Linkedin</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
     </section>
 
 

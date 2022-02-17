@@ -24,3 +24,5 @@ FOOTER
 
 NOTES
     Link download CV maior que o botão
+    <button onclick="window.location.href = '#section-contact'" type="button" class="button-top btn btn-light">Entre em Contato</button>
+    Possível solução
