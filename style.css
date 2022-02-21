@@ -49,7 +49,7 @@
     padding: 15px;
     text-align: center;
     opacity: 75%;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
 }
 
