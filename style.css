@@ -75,7 +75,7 @@
 /* ------------------------- */
 /* Top Content */
 .top-content {
-    padding: 3rem;
+    padding: 4.5rem 3rem;
     text-align: center;
     width: 100%;
 }
@@ -137,7 +137,7 @@
 /* ------------------------- */
 /* About Content */
 .about-content {
-    padding: 3rem;
+    padding: 4.5rem 3rem;
     background-color: #1A222C;
     text-align: center;
     width: 100%;
@@ -245,6 +245,78 @@
 
 
 /* -------------------------------------------------- */
+/* SECTION Services */
+/* -------------------------------------------------- */
+/* Section */
+#services {
+    width: 100%;
+}
+
+
+
+/* Services Content */
+.services-content {
+    padding: 4.5rem 3rem;
+    background-image: url(../images/wallpaper-dark-beach-08.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
+/* Services Row */
+.services-content .row {
+    
+}
+
+/* Heading */
+.services-content h1 {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+/* Services Item Content */
+.services-item-content {
+    /* background-color: red; */
+    margin: 2rem auto;
+    width: 300px;
+}
+
+/* Services Item Heading */
+.services-item-heading {
+
+}
+
+/* Services Item Heading h1 */
+.services-item-heading h1 {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* Services Item Body */
+.services-item-body {
+
+}
+
+/* Services Item Body p */
+.services-item-body p {
+    color: white;
+}
+
+/* Services Item Footer */
+.services-item-footer {
+
+}
+
+
+
+
+
+/* -------------------------------------------------- */
 /* SECTION CONTACT */
 /* -------------------------------------------------- */
 /* Section */
@@ -255,19 +327,17 @@
 
 
 
-
-
 /* ------------------------- */
 /* Contact Content */
 .contact-content {
     text-align: center;
     position: absolute;
     width: 100%;
-    background-image: url(../images/wallpaper-dark-beach-04.jpg);
+    background-image: url(../images/wallpaper-dark-beach-10.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3rem 0;
+    padding: 4.5rem 0;
 }
 
 /* Contact Heading H1 */
