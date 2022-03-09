@@ -31,6 +31,7 @@
     text-align: center;
  }
 
+ /* Center placeholder mozilla */
 :-moz-placeholder {
     text-align: center;
 }
@@ -71,6 +72,8 @@
     height: 100vh;
     width: 100%;   
 }
+
+
 
 /* ------------------------- */
 /* Top Content */
@@ -129,8 +132,6 @@
 #about {
     width: 100%;
 }
-
-
 
 
 
@@ -504,6 +505,11 @@
 
     #linkGithubProjetos button {
         border: 0;
+    }
+
+    /* Contact form input */
+    .contact-input {
+        width: 20rem;
     }
 
     /* Contact i */
